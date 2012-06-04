@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2421266715797EF000515F52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2421266615797EF000515F52 /* UIKit.framework */; };
+		2421266915797EF000515F52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2421266815797EF000515F52 /* Foundation.framework */; };
+		2421266B15797EF000515F52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2421266A15797EF000515F52 /* CoreGraphics.framework */; };
+		2421267115797EF000515F52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2421266F15797EF000515F52 /* InfoPlist.strings */; };
+		2421267315797EF000515F52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2421267215797EF000515F52 /* main.m */; };
+		2421267715797EF000515F52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2421267615797EF000515F52 /* AppDelegate.m */; };
+		2421267A15797EF000515F52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2421267915797EF000515F52 /* ViewController.m */; };
+		2421267D15797EF000515F52 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2421267B15797EF000515F52 /* ViewController.xib */; };
+		24212686157980DF00515F52 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 24212684157980DF00515F52 /* dot.png */; };
+		24212687157980DF00515F52 /* dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24212685157980DF00515F52 /* dot@2x.png */; };
+		2421268C157A901E00515F52 /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2421268A157A901E00515F52 /* paddle.png */; };
+		2421268D157A901E00515F52 /* paddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2421268B157A901E00515F52 /* paddle@2x.png */; };
+		24E0D1C6157D4DC70030BC04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D1C5157D4DC70030BC04 /* Default.png */; };
+		24E0D1CD157D4F9A0030BC04 /* Icon-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D1C7157D4F9A0030BC04 /* Icon-Settings.png */; };
+		24E0D1CE157D4F9A0030BC04 /* Icon-Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D1C8157D4F9A0030BC04 /* Icon-Settings@2x.png */; };
+		24E0D1CF157D4F9A0030BC04 /* Icon-Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D1C9157D4F9A0030BC04 /* Icon-Spotlight.png */; };
+		24E0D1D0157D4F9A0030BC04 /* Icon-Spotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D1CA157D4F9A0030BC04 /* Icon-Spotlight@2x.png */; };
+		24E0D1D1157D4F9A0030BC04 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D1CB157D4F9A0030BC04 /* Icon.png */; };
+		24E0D1D2157D4F9A0030BC04 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D1CC157D4F9A0030BC04 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2421266215797EF000515F52 /* pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2421266615797EF000515F52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2421266815797EF000515F52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2421266A15797EF000515F52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2421266E15797EF000515F52 /* pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pong-Info.plist"; sourceTree = "<group>"; };
+		2421267015797EF000515F52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2421267215797EF000515F52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2421267415797EF000515F52 /* pong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pong-Prefix.pch"; sourceTree = "<group>"; };
+		2421267515797EF000515F52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2421267615797EF000515F52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2421267815797EF000515F52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2421267915797EF000515F52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2421267C15797EF000515F52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		24212684157980DF00515F52 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		24212685157980DF00515F52 /* dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot@2x.png"; sourceTree = "<group>"; };
+		2421268A157A901E00515F52 /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		2421268B157A901E00515F52 /* paddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paddle@2x.png"; sourceTree = "<group>"; };
+		24E0D1C5157D4DC70030BC04 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		24E0D1C7157D4F9A0030BC04 /* Icon-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Settings.png"; sourceTree = "<group>"; };
+		24E0D1C8157D4F9A0030BC04 /* Icon-Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Settings@2x.png"; sourceTree = "<group>"; };
+		24E0D1C9157D4F9A0030BC04 /* Icon-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight.png"; sourceTree = "<group>"; };
+		24E0D1CA157D4F9A0030BC04 /* Icon-Spotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight@2x.png"; sourceTree = "<group>"; };
+		24E0D1CB157D4F9A0030BC04 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		24E0D1CC157D4F9A0030BC04 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2421265F15797EF000515F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2421266715797EF000515F52 /* UIKit.framework in Frameworks */,
+				2421266915797EF000515F52 /* Foundation.framework in Frameworks */,
+				2421266B15797EF000515F52 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2421265715797EF000515F52 = {
+			isa = PBXGroup;
+			children = (
+				2421266C15797EF000515F52 /* pong */,
+				2421266515797EF000515F52 /* Frameworks */,
+				2421266315797EF000515F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2421266315797EF000515F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2421266215797EF000515F52 /* pong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2421266515797EF000515F52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2421266615797EF000515F52 /* UIKit.framework */,
+				2421266815797EF000515F52 /* Foundation.framework */,
+				2421266A15797EF000515F52 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2421266C15797EF000515F52 /* pong */ = {
+			isa = PBXGroup;
+			children = (
+				24212683157980DF00515F52 /* images */,
+				2421267515797EF000515F52 /* AppDelegate.h */,
+				2421267615797EF000515F52 /* AppDelegate.m */,
+				2421267815797EF000515F52 /* ViewController.h */,
+				2421267915797EF000515F52 /* ViewController.m */,
+				2421267B15797EF000515F52 /* ViewController.xib */,
+				2421266D15797EF000515F52 /* Supporting Files */,
+			);
+			path = pong;
+			sourceTree = "<group>";
+		};
+		2421266D15797EF000515F52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2421266E15797EF000515F52 /* pong-Info.plist */,
+				2421266F15797EF000515F52 /* InfoPlist.strings */,
+				2421267215797EF000515F52 /* main.m */,
+				2421267415797EF000515F52 /* pong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24212683157980DF00515F52 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				24E0D1C7157D4F9A0030BC04 /* Icon-Settings.png */,
+				24E0D1C8157D4F9A0030BC04 /* Icon-Settings@2x.png */,
+				24E0D1C9157D4F9A0030BC04 /* Icon-Spotlight.png */,
+				24E0D1CA157D4F9A0030BC04 /* Icon-Spotlight@2x.png */,
+				24E0D1CB157D4F9A0030BC04 /* Icon.png */,
+				24E0D1CC157D4F9A0030BC04 /* Icon@2x.png */,
+				24E0D1C5157D4DC70030BC04 /* Default.png */,
+				2421268A157A901E00515F52 /* paddle.png */,
+				2421268B157A901E00515F52 /* paddle@2x.png */,
+				24212684157980DF00515F52 /* dot.png */,
+				24212685157980DF00515F52 /* dot@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2421266115797EF000515F52 /* pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2421268015797EF000515F52 /* Build configuration list for PBXNativeTarget "pong" */;
+			buildPhases = (
+				2421265E15797EF000515F52 /* Sources */,
+				2421265F15797EF000515F52 /* Frameworks */,
+				2421266015797EF000515F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pong;
+			productName = pong;
+			productReference = 2421266215797EF000515F52 /* pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2421265915797EF000515F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2421265C15797EF000515F52 /* Build configuration list for PBXProject "pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2421265715797EF000515F52;
+			productRefGroup = 2421266315797EF000515F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2421266115797EF000515F52 /* pong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2421266015797EF000515F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2421267115797EF000515F52 /* InfoPlist.strings in Resources */,
+				2421267D15797EF000515F52 /* ViewController.xib in Resources */,
+				24212686157980DF00515F52 /* dot.png in Resources */,
+				24212687157980DF00515F52 /* dot@2x.png in Resources */,
+				2421268C157A901E00515F52 /* paddle.png in Resources */,
+				2421268D157A901E00515F52 /* paddle@2x.png in Resources */,
+				24E0D1C6157D4DC70030BC04 /* Default.png in Resources */,
+				24E0D1CD157D4F9A0030BC04 /* Icon-Settings.png in Resources */,
+				24E0D1CE157D4F9A0030BC04 /* Icon-Settings@2x.png in Resources */,
+				24E0D1CF157D4F9A0030BC04 /* Icon-Spotlight.png in Resources */,
+				24E0D1D0157D4F9A0030BC04 /* Icon-Spotlight@2x.png in Resources */,
+				24E0D1D1157D4F9A0030BC04 /* Icon.png in Resources */,
+				24E0D1D2157D4F9A0030BC04 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2421265E15797EF000515F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2421267315797EF000515F52 /* main.m in Sources */,
+				2421267715797EF000515F52 /* AppDelegate.m in Sources */,
+				2421267A15797EF000515F52 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2421266F15797EF000515F52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2421267015797EF000515F52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2421267B15797EF000515F52 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2421267C15797EF000515F52 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2421267E15797EF000515F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2421267F15797EF000515F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2421268115797EF000515F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pong/pong-Prefix.pch";
+				INFOPLIST_FILE = "pong/pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2421268215797EF000515F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pong/pong-Prefix.pch";
+				INFOPLIST_FILE = "pong/pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2421265C15797EF000515F52 /* Build configuration list for PBXProject "pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2421267E15797EF000515F52 /* Debug */,
+				2421267F15797EF000515F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2421268015797EF000515F52 /* Build configuration list for PBXNativeTarget "pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2421268115797EF000515F52 /* Debug */,
+				2421268215797EF000515F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2421265915797EF000515F52 /* Project object */;
+}
