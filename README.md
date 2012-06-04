@@ -21,6 +21,23 @@ Setup
 3. Open the *pong.xcodeproj* file in XCode.
 4. Build and Run.
 
+To install to your iPad, be sure to modify the Bundle Identifier in
+*pong-Info.plist* to match your Provisioning Profile.
+
+
+What Now?
+---------
+
+Take the project to a new level!  Look through the code so you understand
+what's going on, then start customizing the game:
+
+- Add a background or new images for the ball and paddles (If you change the size of the images, you'll need to adjust some of the values as well).
+- Add ping/pong sounds when the ball strikes a paddle or the wall.
+- Display a message when one player wins by reaching a certain score.
+- Make the game one-player by adding some AI for one of the paddles.
+- Change the direction of the ball based on where it strikes the paddle.
+- Whatever you can come up with that would make a great new feature!
+
 
 Contributions
 -------------
